@@ -44,7 +44,6 @@ TIMESTAMP=$(date --utc +%FT%TZ)
 WEBHOOK_DATA='{
   "username": "GitLab",
   "avatar_url": "https://gitlab.com/favicon.png",
-  "content": "@here",
   "embeds": [ {
     "color": '$EMBED_COLOR',
     "author": {
